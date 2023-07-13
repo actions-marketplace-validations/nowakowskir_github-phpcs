@@ -1,0 +1,10 @@
+name: 'nowakowskir PHPCodeSniffer checks'
+description: 'Performs PHPCodeSniffer checks for your Pull Request changes'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
+
+branding:
+  icon: 'alert-octagon'
+  color: 'red'
