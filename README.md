@@ -16,7 +16,7 @@ PHP Code Sniffer is being executed in two different ways:
 * for the new files created in the PR - it performs checks the whole file,
 * for the existing files, modified in the PR - it performs checks only on the modified context, allowing you to gradually improve the code quality of your files. In other words, it will only check the lines that have been changed in the given Pull Request, without bothering about the rest of the file, even if it doesn't comply with the standards.
 
-Pull Request becomes valid, and being able to merge if there are no standard violation in the given context.
+Pull Request becomes valid, and being able to merge if there are no standard violations in the given context.
 
 ### Installation steps
 
